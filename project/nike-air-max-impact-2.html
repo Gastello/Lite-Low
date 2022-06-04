@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Lite Low</title>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script src="./js/script.js"></script>
+   <script src="./js/slick.min.js"></script>
+   <link rel="stylesheet" href="../project/css/style.css">
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="container">
+            <div class="header__body">
+               <a href="index.html" class="header__logo">
+                  <img src="./images/logo.svg" alt="">
+               </a>
+               <nav class="header__menu">
+                  <ul class="header__list">
+                     <li><a href="index.html" class="header__link">Головна</a></li>
+                     <li><a href="index.html#new" class="header__link">Новинки</a></li>
+                     <li><a href="index.html#basket" class="header__link">Для баскетболу</a></li>
+                     <li><a href="index.html#football" class="header__link">Для футболу</a></li>
+                     <li><a href="index.html#about" class="header__link">Про нас</a></li>
+                  </ul>
+               </nav>
+               <div class="header__basket">
+                  <img src="./images/basket.svg" alt="">
+               </div>
+               <div class="header__money">
+                  <img src="./images/money.svg" alt="">
+               </div>
+               <div class="header__burger">
+                  <span></span>
+               </div>
+            </div>
+         </div>
+      </header>
+      <main class="page page__good">
+         <div class="popup">
+            <div class="popup__close">
+
+            </div>
+            <div class="popup__title">
+               Оформлення замовлення
+            </div>
+            <div class="popup__subtitle">
+               Ми зателефонуємо вам у найближчу годину або на наступний день
+            </div>
+            <form action="#" method="multipart/form-data">
+               <input placeholder="Ім’я та по-батькові: " type="text" class="popup__name" required>
+               <input placeholder="Мобільний телефон: " type="tel" class="popup__tel" required>
+               <textarea placeholder="Короткий опис замовлення: " class="popup__textarea" required></textarea>
+               <button type="submit" class="popup__button">Замовити</button>
+            </form>
+         </div>
+         <div class="main">
+            <div class="container">
+               <div class="main__row">
+                  <div class="main__column main__column_slider">
+                     <div class="main__slider_wrapper">
+                        <div class="slider-3">
+                           <div data-thumb="./images/el-9-1.jpg" class="slider__item">
+                              <img src="./images/el-9-1.jpg" alt="">
+                           </div>
+                           <div data-thumb="./images/el-9-2.jpg" class="slider__item">
+                              <img src="./images/el-9-2.jpg" alt="">
+                           </div>
+                           <div data-thumb="./images/el-9-3.jpg" class="slider__item">
+                              <img src="./images/el-9-3.jpg" alt="">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="main__column main__column_info ">
+                     <div class="main__info">
+                        <div class="main__sizes main-sizes">
+                           <div class="main-size__header">
+                              Наявні розміри
+                           </div>
+                           <div class="main-sizes__row">
+                              <div class="main__size">
+                                 40
+                              </div>
+                              <div class="main__size">
+                                 41
+                              </div>
+                              <div class="main__size">
+                                 42
+                              </div>
+                              <div class="main__size">
+                                 43
+                              </div>
+                           </div>
+                           <div class="main__button">
+                              В наявності
+                           </div>
+                           <div class="main__type">
+                              Баскетбольні
+                           </div>
+                           <div class="main__name">
+                              Nike Air Max Impact 2
+                           </div>
+                           <div class="main__price">
+                              <span class="main__price_new">2519 грн. </span>
+                              <span class="main__price_old"> 3679 грн </span>
+                           </div>
+                           <div class="main__description">
+                              Безкоштовна доставка замовленнь на суму
+                              від 5000 грн.
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="main__about main-about">
+                  <div class="container">
+                     <div class="main-about__header">
+                        ОПИС
+                     </div>
+                     <div class="main-about__row">
+                        <div class="main-about__column main-about__column_img">
+                           <div class="main-about__image">
+                              <img src="./images/el-9-4.jpg" alt="">
+                           </div>
+                        </div>
+                        <div class="main-about__column main-about__column_text">
+                           <div class="main-about__description">
+                              Баскетбольні чоловічі кросівки Nike Air Max Impact 2 – створені для сильних гравців, яким
+                              подобається амортизація. Широкі бічні текстильні ремені для надійної підтримки стопи – ви
+                              можете бути впевнені у посадці та зосередитись на грі.
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="main__advantages">
+                  <div class="container">
+                     <div class="main-about__header">
+                        ПРО МОДЕЛЬ
+                     </div>
+                     <div class="main__list_wrapper">
+                        <ul class="main__list">
+                           <li>
+                              Щільні шнурки
+                           </li>
+                           <li>
+                              Тверда підошва
+                           </li>
+                           <li>
+                              Високий профіль
+                           </li>
+                           <li>
+                              Сітчатий верх
+                           </li>
+                           <li>
+                              Щільна конструкція
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+      </main>
+      <footer class="footer">
+         <div class="container container_footer">
+
+            <div class="footer__row">
+               <div class="footer__column">
+                  <div class="footer__header">Про магазин</div>
+                  <div class="footer__body body-footer">
+                     <div class="body-footer__since">
+                        З 2012 року допомагаємо спортсменам та людям з спортивним хоббі отримувати максмимальний комфорт
+                        під-час спортивної активності.
+                     </div>
+                  </div>
+               </div>
+               <div class="footer__column">
+                  <div class="footer__header">Інстаграм</div>
+                  <div class="footer__body body-footer body-footer_center ">
+                     <div class="body-footer__links">
+                        <a href="">@LITE_LOW_OWNER: сторінка власника</a>
+                        <a href="">@LITE_LOW_ORG: сторінка сервісу</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="footer__column">
+                  <div class="footer__header">Контакти</div>
+                  <div class="footer__body body-footer">
+                     <div class="body-footer__questions">
+                        Є питання , або пропозиції, звертайтеся:
+                     </div>
+                     <div class="body-footer__tel">
+                        <a href="tel:380991234678">+38-099-123-46-78</a>
+                     </div>
+                     <div class="body-footer__mail">
+                        LITE_LOW@gmail.com
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+      </footer>
+   </div>
+   <script src="./js/my-menu.js"></script>
+   <script src="./js/popup.js"></script>
+</body>
+
+</html>
